@@ -254,7 +254,7 @@ void deleteGivenNode(int num)
   {
    int i,choice,n,pos;
    for(i=0;i<10;i++)
-   create(i+1);
+   create(i+1);                //used to create node of the linked list with the given values in the linked list. Here the node is created with the i+1.You can modify this part according to you.
    display();
    printf("\n Press 1 for Insert At Begining                 ");
    printf("\n Press 2 for Insert At End                      ");
